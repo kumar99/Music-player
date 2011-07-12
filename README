@@ -23,8 +23,8 @@ class Mp3Filter implements FilenameFilter {
 
 public class MusicPlayer extends ListActivity {
 	
-	private static final String MEDIA_PATH = new String("/sdcard/");
-	private List<String> songs = new ArrayList<String>();
+	private static final String MEDIA_PATH = new String("/sdcard/"); 
+	private List<String> songs = new ArrayList<String>();               
 	private MediaPlayer mp = new MediaPlayer();
     /** Called when the activity is first created. */
     @Override
@@ -62,3 +62,11 @@ public class MusicPlayer extends ListActivity {
 		} 
 	}
 }
+
+
+
+
+
+ACTUALLY I WAS TRYING TO PUSH SONG ON SD CARD BY GRAPHICAL METHOD USING DDMS IN ECLIPSE. BUT FIRST I TRIED USING TERMINAL. 
+
+
